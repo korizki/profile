@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;700;800&display=swap');
+* {
+    font-family: 'Nunito',sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+body{
+    
+    background-color: #f2f2f2;
+}
+nav {
+    font-size: 0.9em;
+    background-color: #f7f7f7;
+    display: flex;
+    line-height: 3.5em;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 4px 20px 0 rgba(164, 163, 163, 0.324);
+    z-index: 10;
+}
+.logo{
+    color: #204051;
+    font-weight: 800;
+    margin-left: 2em;
+    margin-right: 9em;
+    width: 30%;
+    font-size: 1.2em;
+    padding-top: 0.2em;
+    padding-bottom: 0.3em;
+}
+nav ul{
+    display: flex;
+    width: 70%;
+}
+nav ul li{
+    list-style: none;
+    color: #3b6978;
+}
+nav ul a{
+    text-decoration: none;
+    display: block;
+    opacity: 0.7;
+    padding: 0 2em;
+    padding-top: 0.3em;
+    font-size: 1.1em;
+}
+nav ul a:hover{
+    opacity: 1;
+    border-bottom: 0.3em solid #3b6978;
+}
+.headerContent{
+    background-image: url("/assets/images/header.jpg");
+    width: 100%;
+    background-position: left 10% bottom 40% ;
+    background-repeat: none;
+    height: 700px;
+    box-shadow: 0 4px 50px 0 rgba(196, 196, 196, 0.605);
+}
+.fotoProfil{
+    border-radius: 100%;
+    width: 15em;
+    margin: 8em 5em;
+    margin-right: 3em;
+    box-shadow: 7px 7px 50px 0 #c4c3c35d;
+    float: left;
+}
+.detailProfil{
+    padding: 9em;
+}
+.detailProfil h1{
+    color: #204051;
+    font-size: 3.5em;
+}
+.detailProfil p{
+    font-size: 1.1em;
+    color: #3b6978;
+}
+.socialMedia{
+    margin-top: 1em;
+    color: #204051;
+    padding: 0.3em;
+    margin-left: 12em;
+    width: 400px;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color: #204051;
+}
+.sosialmedia{
+    margin: 0 0.2em;
+    padding: 0.3em;
+    display: inline-block;
+    border: 1px solid #204051;
+    border-radius: 50%;
+}
+.fa-facebook{
+    padding-left: 0.5em;
+    padding-right: 0.1em;
+}
+.fa-instagram{
+    padding-left: 0.350em;
+    padding-right: 0.250em;
+}
+.sosialmedia:hover{
+    color: #f2f2f2;
+    background-color: #204051;
+    transition: 0.3s;
+}
+article{
+    margin: 2em 0;
+    padding-top: 4em;
+}
+.judul{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3em;
+    color: #204051;
+    margin-bottom: 1.5em;
+    padding: 0.2em;
+    width: 50%;
+    border-bottom: 8px solid #3b6978;
+}
+
+.kontenPendidikan{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+.boxPendidikan{
+    padding: 2em;
+    border: 1px solid rgba(167, 166, 166, 0.331);
+    border-radius: 20px;
+    width: 33%;
+    text-align: center;
+    color: #3b6978;
+    background-color: #fafafa;
+    background-image: url('/assets/images/header.jpg');
+    background-position: bottom 90% left 40%;
+}
+.boxPendidikan:hover{
+    position: relative;
+    bottom: 7px;
+    transition: 0.2s;
+    box-shadow: 0 0 50px 0 #3b697835
+}
+.label{
+    text-align: center;
+    width: 10em;
+    bottom: 2.5em;
+    position: relative;
+    background-color: #204051;
+    color: #f2f2f2;
+    font-size: 0.8em;
+    font-weight: 800;
+    padding: 0.8em 1.5em;
+    border-radius: 0 0 7px 7px;
+    
+}
+.boxPendidikan h1{
+    font-size: 2em;
+    padding: 0.4em 0;
+    font-weight: 600;
+    color: #204051;
+}
+.boxPendidikan p{
+    text-align: left;
+    font-size: 0.9em;
+}
+hr{
+    margin: 0.5em 0;
+    border: 1px solid rgba(210, 210, 210, 0.413);
+}
+.penting{
+    font-weight: 600;
+    color: #204051;
+    font-size: 1em;
+}
+.iconPendidikan{
+    width: 10em;
+}
+.fa{
+    width: 30px;
+}
+.tombol{
+    padding: 0.8em;
+    display: block;
+    margin-top: 2em;
+    border-radius: 5px;
+}
+.pendidikan{
+    border: 1px solid #3b6978;
+    color: #3b6978;
+}
+.pendidikan:hover{
+    color: #f2f2f2;
+    background-color: #3b6978;
+    transition: all 0.3s;
+}
+.kontenPengalaman{
+    background-color: #3b6978;
+}
+.boxPengalaman{
+    background-color: #1c333a;
+    color: #f2f2f2;
+    padding: 1.5em 3em;
+    border-bottom: 2px solid #e1e1e13a;
+    cursor: pointer;
+    margin-left: 2em;
+    width: 50%;
+}
+.iconPengalaman{
+    float: right;
+    width: 35%;
+    position: relative;
+    right: 1.5em;
+    bottom: 2em;
+}
+.boxPengalaman:hover{
+    position: relative;
+    padding-left: 4em;
+    transition: 0.3s;
+    background-color: #295160f9;
+}
+.boxPengalaman h1{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+.boxPengalaman h3{
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.boxPengalaman p{
+    font-size: 0.9em;
+}
+.kontenPelatihan{
+    padding: 1em 2em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.boxPelatihan{
+    width: 40%;
+    padding: 1em 2em;
+    background-image: url("/assets/images/back.png");
+    background-position: left 20% bottom 90%;
+    border-radius: 7px;
+    background-color: white;
+    cursor: pointer;
+    color: #204051;
+    border: 5px solid white;
+    border: 1px solid rgba(128, 128, 128, 0.276);
+}
+.pelatihan{
+    margin-bottom: 0.8em;
+}
+.boxPelatihan h1{
+    font-weight: 600;
+}
+.boxPelatihan:hover{
+    box-shadow: 0 0 50px #3b697841;
+    position: relative;
+    bottom: 4px;
+    transition: 0.4s;
+}
+.iconPelatihan{
+    width: 12em;
+    height: 7em;
+}
+.logoPelatihan{
+    width: 100%;
+}
+#bantuan{
+    background-image: url("/assets/images/header2.jpg");
+    background-position: center;
+    margin-bottom: 0em !important;
+}
+.boxBantuan{
+    margin: 0 auto;
+    width: 50%;
+    padding: 2em 0em;
+    margin-bottom: 0em;
+    font-size: 1em;
+}
+.bantuan{
+    margin-bottom: 0.2em;
+}
+form label{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+}
+form input, textarea{
+    width: 100%;
+    padding: 0.7em 1em;
+    border-radius: 5px;
+    border: 1px solid #3b69783f;
+    font-size: 1em;
+}
+form textarea{
+    margin-bottom: 1.2em;
+    height: 4em;
+}
+form input:focus{
+    outline: none;
+    border: 1px solid #3b6978;
+    box-shadow: 0 0 20px 0 #3b697845;
+    border-radius: 5px;
+}
+form textarea:focus{
+    outline: none;
+    border: 1px solid #3b6978;
+    box-shadow: 0 0 20px 0 #3b697845;
+    border-radius: 5px;
+}
+.inputform{
+    width: 100%;
+}
+.kirim{
+    width: 30%;
+    border: 1px solid #3b6978;
+    color: #3b6978;
+    background-color: white;
+}
+.kirim:hover{
+    background-color: #3b6978;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+footer{
+    padding: 3em;
+    text-align: center;
+    background-color: #204051;
+    color: white;
+}
